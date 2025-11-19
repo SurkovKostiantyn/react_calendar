@@ -1,0 +1,48 @@
+.no-bg-event,
+.no-bg-event .fc-event-main {
+  background: transparent !important;
+  border: none !important;
+  box-shadow: none !important;
+}
+
+.fc-toolbar-title {
+  font-size: 1.1rem !important;
+  font-weight: 500 !important;
+}
+
+.fc-button, .fc-button-group .fc-button {
+  font-size: 0.85rem !important;
+  padding: 2px 10px !important;
+  min-width: 28px !important;
+  height: 28px !important;
+}
+
+.fc .fc-toolbar {
+  margin-bottom: 0.5em !important;
+}
+
+.fc-daygrid-day.animated-press {
+  animation: press 0.2s;
+}
+@keyframes press {
+  0% { transform: scale(1); }
+  50% { transform: scale(0.92); }
+  100% { transform: scale(1); }
+}
+
+.fc-daygrid-day.animated-add {
+  animation: add-bokal 0.4s;
+}
+@keyframes add-bokal {
+  0% { background: #e3f2fd; }
+  50% { background: #bbdefb; }
+  100% { background: inherit; }
+}
+
+.fc-daygrid-day.animated-remove {
+  animation: remove-bokal 0.4s;
+}
+@keyframes remove-bokal {
+  0% { opacity: 1; }
+  100% { opacity: 0.2; }
+} 

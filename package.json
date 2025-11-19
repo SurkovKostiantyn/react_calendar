@@ -3,11 +3,24 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@emotion/react": "^11.14.0",
+    "@emotion/styled": "^11.14.0",
+    "@fullcalendar/core": "^6.1.15",
+    "@fullcalendar/daygrid": "^6.1.15",
+    "@fullcalendar/interaction": "^6.1.15",
+    "@fullcalendar/react": "^6.1.15",
+    "@mui/icons-material": "^5.16.14",
+    "@mui/material": "^5.16.14",
+    "@react-oauth/google": "^0.12.2",
+    "axios": "^1.10.0",
+    "chart.js": "^4.5.0",
     "cra-template": "1.2.0",
     "firebase": "^11.1.0",
     "fullcalendar": "^6.1.15",
+    "normalize.css": "^8.0.1",
     "punycode": "^2.3.1",
     "react": "^19.0.0",
+    "react-chartjs-2": "^5.3.0",
     "react-dom": "^19.0.0",
     "react-fullcalendar": "^1.0.0",
     "react-router-dom": "^7.1.1",
@@ -36,5 +49,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11"
   }
 }
